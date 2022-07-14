@@ -1,0 +1,30 @@
+{
+  "name": "vfxalert.com-website-tests-v5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-vfxalert-footer": "node src/tests/vfxalert/footer.js",
+    "test-vfxalert-auth": "node src/tests/vfxalert/authentication.js",
+    "test-vfxalert-header": "node src/tests/vfxalert/header.js",
+    "test-vfxalert-headings": "node src/tests/vfxalert/headings.js",
+    "test-xsignals-footer": "node src/tests/xsignals/footer.js",
+    "test-xsignals-auth": "node src/tests/xsignals/authentication.js",
+    "test-xsignals-header": "node src/tests/xsignals/header.js",
+    "test-xsignals-headings": "node src/tests/xsignals/headings.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/x-systems/vfxalert.com-website-tests-v5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/x-systems/vfxalert.com-website-tests-v5#readme",
+  "dependencies": {
+    "expect-puppeteer": "^6.1.0",
+    "puppeteer": "^14.3.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}
